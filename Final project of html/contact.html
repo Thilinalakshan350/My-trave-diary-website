@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Diary-Contact</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: rgb(230, 230, 230);
+        }
+        .nav-button{
+            display: inline;
+            font-size: 20px;
+            text-decoration: underline;
+            color: white;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+        #nav-header{
+            background-color: rgb(14, 14, 95);
+            text-align: center;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+        #headline{
+            font-size: 32px;
+            text-align: center;
+            margin-top: 80px;
+        }
+        #nav-footer{
+            background-color: rgb(27, 26, 26);
+            text-align: center;
+            padding-top: 70px;
+            padding-bottom: 40px;
+            margin-top: 25px;
+        }
+        .nav-footer-button{
+            display: inline;
+            font-size: 20px;
+            color: #ccc;
+            padding-left: 16px;
+            padding-right: 16px;
+            text-decoration: none;
+            
+        }
+        #form-containr{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #form{
+            padding-top: 40px;
+            padding-bottom: 40px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            max-width: 600px;
+            border: #ccc 1px solid;
+            margin-bottom: 80px;   
+        }
+        a{
+            text-decoration: none;
+        }
+        .input{
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-bottom: 1px solid #ccc ;
+            padding-bottom: 12px;
+            width: 60%;
+            height: 20px;
+            font-size: 18px;
+            margin: 30px;
+        }
+        #submit-button{
+            padding-right: 24px;
+            padding-left: 24px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            font-size: 16px;
+            color: white;
+            background-color: rgb(14, 14, 95);
+            border: black solid 1px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="nav-header">
+        <a href="./index.html"><nav class="nav-button">TRIPS</nav></a>
+        <a href="./about.html"><nav class="nav-button">ABOUT</nav></a>
+        <a href="./contact.html"><nav class="nav-button">CONTACT</nav></a>
+    </header>
+    <h2 id="headline">Wanna come on my next trip? Contact me.</h2>
+    <div id="form-container">
+        <form id="form" method="get">
+            <div class="input-container">
+            <input class="input" type="text" placeholder="Full Name" name="full-name" required>
+            </div>
+            <div class="input-container">
+            <input class="input" type="email" placeholder="Email" name="e-mail" required>
+            </div>
+            <div class="input-container">
+            <input class="input" type="text" placeholder="Contact Number" name="contact_number" required>
+            </div>
+            <div class="input-container">
+            <input id="submit-button" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    
+    <footer id="nav-footer">
+        <a href="./index.html"><nav class="nav-footer-button">TRIPS</nav></a>
+        <a href="./about.html"><nav class="nav-footer-button">ABOUT</nav></a>
+        <a href="./contact.html"><nav class="nav-footer-button">CONTACT</nav></a>
+    </footer>
+
+</body>
+</html>
